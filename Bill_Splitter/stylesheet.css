@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: blanchedalmond;
+}
+#container{
+    background: rgb(243, 131, 131);
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    box-shadow: -5px 5px 15px 3px #969696;
+}
+h1 {
+    background:black;
+    color:white;
+    text-transform: uppercase;
+}

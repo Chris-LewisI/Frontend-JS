@@ -1,0 +1,30 @@
+<!--Web-tool to split bills.-->
+<!DOCTYPE html>
+<html>
+    <title>Bill Splitter</title>
+    <body>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        <div id="container">
+            <h1>Bill Splitter</h1>
+            <div id="calculator">
+                <form>
+                    <p>Bill Amount:</p>
+                    $ <input id="billAmount" type="text" placeholder="Bill Amount">
+
+                    <p>Tip Percent:</p>
+                    % <input id="tipPercent" type="text" placeholder="Tip Percent">
+
+                    <p>Number of People</p>
+                     <input id="numOfPeople" type="text" placeholder="People">
+                </form>
+            <button type="button" id="calculate">CALCULATE</button>
+            </div>
+            <div id="eachCost">
+                $<span id="cost">0.00</span>
+                <small id="each">each</small>
+            </div>
+        </div>
+        <script type="text/javascript" src="calculator.js"></script>
+    </body>
+</html>
